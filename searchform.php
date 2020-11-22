@@ -1,4 +1,9 @@
 <form method="get" id="form" action="<?php bloginfo('url'); ?>/">
-    <input type="text" value="<?php the_search_query(); ?>" name="s" id="s">
-    <input type="submit" id="submit">
+    <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" placeholder="rechercher">
+    <button type="submit" id="submit">
+        <svg id="music" height="30" viewBox="0 0 511.448 511.448" width="30" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="m436.508 74.94c-99.913-99.913-261.64-99.928-361.567 0-99.913 99.913-99.928 261.64 0 361.567 99.913 99.913 261.64 99.928 361.567 0 99.912-99.912 99.927-261.639 0-361.567zm-53.118 218.117c0 32.165-26.168 58.333-58.333 58.333s-58.333-26.168-58.333-58.333 26.168-58.334 58.333-58.334h16.333v-57.826l-107.333 30.667v117.493c0 32.165-26.168 58.333-58.333 58.333s-58.333-26.168-58.333-58.333 26.168-58.333 58.333-58.333h16.333v-75c0-9.376 6.215-17.616 15.231-20.192l149.333-42.667c13.367-3.823 26.769 6.21 26.769 20.192z" />
+        </svg>
+    </button>
 </form>
