@@ -1,3 +1,4 @@
+</div>
 <footer id="footer">
     <div class="infoSiteFooter">
         <?php bloginfo('name'); ?> &copy; <span id="copyright"></span>

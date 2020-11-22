@@ -39,3 +39,4 @@
         <!-- Formulaire de recherche -->
         <?php get_search_form(); ?>
     </div>
+    <div id="main">
