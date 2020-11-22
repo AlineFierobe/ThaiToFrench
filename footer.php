@@ -4,9 +4,8 @@
         <?php bloginfo('name'); ?> &copy; <span id="copyright"></span>
     </div>
     <div class="sloganFooter">
-        keep calm and listen to Thai music
-    </div>
-    <div class="linkFooter">
+        keep calm and listen to Thai music </div>
+    <div class=" linkFooter">
         <h6>liens utiles</h6>
         <ul>
             <li>

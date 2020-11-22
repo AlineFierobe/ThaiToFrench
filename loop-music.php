@@ -16,13 +16,13 @@
         style="background: url('<?php the_post_thumbnail_url(); ?>') center center/cover;">
     </div>
     <div class="loop-music-details">
-        <a href="<?php the_permalink(); ?>" target="_blank">
+        <a href="<?php the_permalink(); ?>">
             <span class="loop-music-details-artist"><?php the_field('artiste'); ?></span> - <span
                 class="highlight"><?php the_field('titre'); ?></span>
         </a>
     </div>
     <h3>
-        <a href="<?php the_permalink(); ?>" target="_blank">
+        <a href="<?php the_permalink(); ?>">
             <svg id="playDisplay" height="50" viewBox="0 0 511.449 511.449" width="50"
                 xmlns="http://www.w3.org/2000/svg">
                 <path

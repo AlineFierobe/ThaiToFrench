@@ -18,3 +18,10 @@ add_action( 'init', 'register_my_menu' );
 
 // ajout des miniatures
 add_theme_support( 'post-thumbnails' );
+
+// ajout du format de post personnalisé
+function my_cpt_post_types( $post_types ) {
+    $post_types[] = 'test';
+    return $post_types;
+}
+add_filter( 'cpt_post_types', 'my_cpt_post_types' );
