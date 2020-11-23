@@ -83,14 +83,26 @@ ul {
   color: var(--dark);
   font-family: var(--main-font);
 }
+.uppercase {
+  text-transform: uppercase;
+}
+/* --------------------- SOLO USE --------------------- */
+
 .taxonomy-mois {
   font-size: 1.7rem;
   color: var(--dark);
   margin-left: 1rem;
 }
 
-.uppercase {
-  text-transform: uppercase;
+.date-news {
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  top: -10px;
+  font-style: italic;
+}
+.date-news span {
+  border-bottom: 1px solid var(--dark);
 }
 /* --------------------- GRID --------------------- */
 #header {
