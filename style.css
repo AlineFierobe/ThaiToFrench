@@ -76,6 +76,13 @@ ul {
   background: linear-gradient(transparent 60%, var(--vert) 40%);
 }
 
+.highlight-vert-clair {
+  background: linear-gradient(transparent 60%, var(--vert-transparent) 40%);
+}
+.highlight-rose {
+  background: linear-gradient(transparent 60%, var(--rose-transparent) 40%);
+}
+
 .post-title {
   text-align: center;
   text-transform: uppercase;
@@ -84,6 +91,7 @@ ul {
   color: var(--dark);
   font-family: var(--main-font);
 }
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -293,7 +301,7 @@ footer .linkFooter ul li a {
   font-size: 1.7rem;
 }
 
-/* LOOP */
+/* LOOP REUTILISEES  */
 .repo-loop-music {
   margin-bottom: 1rem;
 }
@@ -352,6 +360,17 @@ footer .linkFooter ul li a {
   flex-basis: 450px;
   width: 450px;
   height: 300px;
+  border-radius: 24px;
+}
+
+/* PLAYLIST + QUOTE */
+.container-home-playlist-quote {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* PLAYLIST */
@@ -367,7 +386,7 @@ footer .linkFooter ul li a {
 }
 
 .playlist-display {
-  width: 60%;
+  flex-basis: 700px;
   margin: auto;
 }
 #playlist {
@@ -455,6 +474,44 @@ footer .linkFooter ul li a {
   background: var(--dark);
   text-align: center;
   padding: 1.3rem;
+}
+
+/* DISCLAMER */
+.container-disclaimer {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.container-disclaimer p {
+  font-size: 1.9rem;
+  text-align: justify;
+  margin-top: 7rem;
+}
+
+/* QUOTE */
+.homeQuote {
+  flex-basis: 350px;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.quote::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10d";
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: var(--rose);
+}
+.quote::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: var(--rose);
 }
 
 /* --------------------- PAGE REPERTOIRE MUSIQUE --------------------- */
