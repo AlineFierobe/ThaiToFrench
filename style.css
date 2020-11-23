@@ -258,6 +258,43 @@ footer .linkFooter ul {
 footer .linkFooter ul li a {
   color: var(--gris);
 }
+/* --------------------- TEMPLATE GENERAUX --------------------- */
+/* TAXONOMY */
+.container-type {
+  width: 80%;
+  margin: auto;
+}
+.container-type-content {
+  margin-top: 3rem;
+}
+.container-type-content p {
+  font-size: 1.7rem;
+}
+
+/* LOOP */
+.repo-loop-music {
+  margin-bottom: 1rem;
+}
+#repoPlay {
+  fill: var(--dark);
+  margin-right: 1rem;
+}
+
+.repo-loop-music a {
+  font-size: 2rem;
+  color: var(--dark);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.repo-loop-music:nth-child(even) .title-highlight {
+  background: linear-gradient(transparent 60%, var(--vert-transparent) 40%);
+}
+
+.repo-loop-music:nth-child(odd) .title-highlight {
+  background: linear-gradient(transparent 60%, var(--rose-transparent) 40%);
+}
 
 /* --------------------- HOME --------------------- */
 
@@ -399,10 +436,6 @@ footer .linkFooter ul li a {
 }
 
 /* --------------------- PAGE REPERTOIRE MUSIQUE --------------------- */
-.repo-music {
-  width: 80%;
-  margin: auto;
-}
 
 .repo-music-flex {
   display: flex;
@@ -420,31 +453,6 @@ footer .linkFooter ul li a {
   text-align: center;
   font-size: 1.7rem;
   margin-bottom: 2rem;
-}
-
-/* LOOP */
-.repo-loop-music {
-  margin-bottom: 1rem;
-}
-#repoPlay {
-  fill: var(--dark);
-  margin-right: 1rem;
-}
-
-.repo-loop-music a {
-  font-size: 2rem;
-  color: var(--dark);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.repo-loop-music:nth-child(even) .title-highlight {
-  background: linear-gradient(transparent 60%, var(--vert-transparent) 40%);
-}
-
-.repo-loop-music:nth-child(odd) .title-highlight {
-  background: linear-gradient(transparent 60%, var(--rose-transparent) 40%);
 }
 
 /* TAG MUSIQUE */
@@ -488,11 +496,6 @@ footer .linkFooter ul li a {
 }
 
 /* --------------------- SINGLE MUSIQUE --------------------- */
-.single-music {
-  width: 80%;
-  margin: auto;
-}
-
 .single-music-box {
   display: flex;
   flex-flow: row nowrap;

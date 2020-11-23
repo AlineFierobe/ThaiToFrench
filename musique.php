@@ -5,7 +5,7 @@ Template Name Posts: Musique
 ?>
 <?php get_header(); ?>
 
-<div class="repo-music">
+<div class="container-type">
     <h2 class="post-title"><span class="highlight"><?php the_title(); ?></span></h2>
     <div class="repo-music-flex">
         <div class="repo-music-article">

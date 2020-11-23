@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="single-music">
+<div class="container-type">
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
 

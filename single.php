@@ -1,20 +1,14 @@
 <?php get_header(); ?>
-<div>
+
+<div class="container-type">
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
-    <div>
-        <h1><?php the_title(); ?></h1>
-        <p>
-            Posté le <?php the_date(); ?> dans <?php the_category(', '); ?> par <?php the_author(); ?>.
-        </p>
-        <div>
-            <?php the_content(); ?>
-        </div>
-        <div>
-            <?php comments_template(); ?>
-        </div>
+    <h1 class="post-title"><span class="highlight"><?php the_title(); ?></span></h1>
+    <div class="container-type-content">
+        <?php the_content(); ?>
     </div>
-    <?php endwhile; ?>
-    <?php endif; ?>
 </div>
+<?php endwhile; ?>
+<?php endif; ?>
+
 <?php get_footer(); ?>
