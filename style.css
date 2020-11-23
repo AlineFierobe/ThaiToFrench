@@ -83,6 +83,15 @@ ul {
   color: var(--dark);
   font-family: var(--main-font);
 }
+.taxonomy-mois {
+  font-size: 1.7rem;
+  color: var(--dark);
+  margin-left: 1rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
 /* --------------------- GRID --------------------- */
 #header {
   grid-area: header;
