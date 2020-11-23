@@ -1,0 +1,177 @@
+/* RESPONSIVE MOBILE */
+@media only screen and (max-width: 500px) {
+  /* --------------------- REUTILISABLE --------------------- */
+  .post-title {
+    font-size: 2.3rem;
+    margin: 1rem;
+  }
+
+  .date-news {
+    top: 0px;
+  }
+
+  /* TAXONOMY */
+  .container-type {
+    width: 90%;
+  }
+
+  .container-type-content p {
+    font-size: 1.5rem;
+  }
+
+  /* LOOP REUTILISEE */
+  .repo-loop-music a {
+    font-size: 1.5rem;
+    color: var(--dark);
+  }
+  /* --------------------- GRID --------------------- */
+  body {
+    min-height: 100vh;
+    display: grid;
+    grid:
+      "header" 150px
+      "sidebar" 40px
+      "main" 1fr
+      "footer" 200px
+      / 1fr;
+    align-content: start;
+  }
+
+  /* --------------------- HEADER --------------------- */
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header h2 {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+  }
+
+  header nav {
+    margin-bottom: 2rem;
+  }
+
+  /* SEARCHFORM */
+  #sidebar {
+    align-items: center;
+  }
+  input[id="s"] {
+    width: 200px;
+    margin-left: 6.5rem;
+  }
+
+  /* --------------------- FOOTER --------------------- */
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    color: var(--gris);
+  }
+
+  footer .sloganFooter {
+    font-size: 1.5rem;
+  }
+
+  footer .linkFooter {
+    margin-top: 1.5rem;
+  }
+
+  /* --------------------- HOME --------------------- */
+  /* ARTICLE ACCUEIL */
+  .accueilHome {
+    width: 90%;
+    height: 300px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .accueilHome-thumbnail {
+    width: 250px;
+    height: 150px;
+  }
+
+  /* DISCLAMER */
+  .container-disclaimer {
+    max-width: 90%;
+  }
+
+  /* QUOTE */
+  .container-home-playlist-quote {
+    width: 90%;
+    margin: auto;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* QUOTE */
+  .homeQuote {
+    flex-basis: auto;
+    margin-left: 0;
+  }
+
+  /* PLAYLIST */
+  .playlist-display {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  /* LOOP MUSIC */
+
+  .loop-music {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .loop-music-thumbnail {
+    display: none;
+  }
+
+  .loop-music-details {
+    padding-left: 1rem;
+  }
+
+  .loop-music-details span {
+    display: inline-block;
+  }
+
+  /* BAS PLAYLIST */
+  .bas-playlist-home svg {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* --------------------- PAGE REPERTOIRE MUSIQUE --------------------- */
+
+  .repo-music-flex {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  /* TAG MUSIQUE */
+
+  .repo-music-tag ul {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .repo-music-taxo {
+    display: inline-block;
+  }
+  /* --------------------- SINGLE MUSIC --------------------- */
+  .single-music-box {
+    flex-flow: column-reverse;
+    justify-content: center;
+  }
+
+  .single-music-box-details {
+    width: 100%;
+  }
+
+  /* --------------------- PAGE NEWS --------------------- */
+  #repoPlayNews {
+    display: none;
+  }
+}
