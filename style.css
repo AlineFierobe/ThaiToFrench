@@ -95,6 +95,7 @@ ul {
 .uppercase {
   text-transform: uppercase;
 }
+
 /* --------------------- SOLO USE --------------------- */
 
 .taxonomy-mois {
@@ -197,7 +198,6 @@ header nav div ul {
 header nav div ul li {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-
 }
 
 header nav div ul li a {
@@ -296,12 +296,28 @@ footer .linkFooter ul li a {
 .container-type {
   width: 80%;
   margin: auto;
+  margin-bottom: 2rem;
+}
+.container-type-single {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2rem;
 }
 .container-type-content {
   margin-top: 3rem;
 }
+
+.container-type-content h3 {
+  font-size: 2.5rem;
+}
+
+.container-type-content p + h3 {
+  margin-top: 2.5rem;
+}
+
 .container-type-content p {
   font-size: 1.7rem;
+  text-align: justify;
 }
 
 /* LOOP REUTILISEES  */
@@ -315,7 +331,6 @@ footer .linkFooter ul li a {
   width: 30px;
   height: 30px;
 }
-
 
 .repo-loop-music a {
   font-size: 2rem;
@@ -597,16 +612,21 @@ footer .linkFooter ul li a {
   align-items: center;
 }
 
+.container-single-music {
+  width:60%;
+  margin: auto;
+}
+
 .single-music-box-content {
+  flex: 1;
   align-self: flex-start;
   text-align: left;
-  flex: 2;
   margin-top: 2rem;
 }
 
 .single-music-box-details {
-  flex: 1;
-  justify-self: flex-start;
+  flex-basis: 350px;
+  align-self: flex-start;
   border: 2px solid var(--dark);
   border-radius: 8px;
   margin-top: 2rem;
@@ -635,9 +655,15 @@ footer .linkFooter ul li a {
 }
 
 .traduction {
+  margin-top: 5rem;
   text-align: right;
 }
 
 .traduction span {
   background: linear-gradient(transparent 60%, var(--vert-transparent) 40%);
+}
+
+#lecteurYoutube {
+  width: 560px;
+  height: 315px;
 }

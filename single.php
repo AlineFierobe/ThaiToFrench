@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container-type">
+<div class="container-type-single">
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
     <h1 class="post-title"><span class="highlight"><?php the_title(); ?></span></h1>

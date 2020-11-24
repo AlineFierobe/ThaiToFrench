@@ -15,7 +15,7 @@
                 <a href="<?php echo get_permalink(26); ?>">contact</a>
             </li>
             <li>
-                <a href="https://www.facebook.com/groups/thaitofrenchsub" target="_blank">facebook</a>
+                <a href="https://www.facebook.com/ThaiToFrenchSUB" target="_blank">facebook</a>
             </li>
         </ul>
     </div>

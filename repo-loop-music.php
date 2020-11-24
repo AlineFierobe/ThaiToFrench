@@ -2,6 +2,7 @@
  $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $music = new WP_Query( array(
     'post_type' => 'musique',
+    'posts_per_page' => -1,
     'orderby' => 'title',
     'order' => 'ASC',
     'paged'=>$paged

@@ -15,6 +15,10 @@
     width: 90%;
   }
 
+  .container-type-single {
+    width: 90%;
+  }
+
   .container-type-content p {
     font-size: 1.5rem;
   }
@@ -121,7 +125,7 @@
     width: 40px;
     height: 40px;
   }
-  
+
   .playlist-display {
     flex-basis: auto;
     width: 100%;
@@ -179,9 +183,19 @@
     justify-content: center;
   }
 
+  .container-single-music {
+    width:90%;
+  }
+
   .single-music-box-details,
   .single-music-box-content {
     width: 100%;
+    flex-basis: auto;
+  }
+
+  #lecteurYoutube {
+    width: 337px;
+    height: 189px;
   }
 
   /* --------------------- PAGE NEWS --------------------- */
