@@ -11,9 +11,6 @@ array() );
 add_action( 'wp_footer', 'theme_js' );
 
 // ajout de la feuille CSS pour le responsive
-
-  
-//Lignes 118 et 119  permettant d'ajouter le normalize.css dans la file.
 wp_register_style('mobile', get_template_directory_uri() . '/style-mobile.css', array(), '1.0', 'all');
 wp_enqueue_style('mobile'); // Enqueue it!
 
