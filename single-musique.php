@@ -19,8 +19,14 @@
             </p>
         </div>
         <div class="single-music-box-details">
+            <h4>tags</h4>
+            <p id="lesTags">
+                <?php the_terms( $post->ID, 'song_artist', '' ); ?>
+                <?php the_terms( $post->ID, 'song_label', '' ); ?>
+            </p>
             <h4>informations</h4>
-            <p>sortie le <?php the_field('date_de_sortie'); ?></p>
+            <p>sortie le <?php the_field('date_de_sortie'); ?>
+            </p>
             <p><span class="highlight-vert-clair">label</span> : <?php the_field('label'); ?></p>
             <p><span class="highlight-vert-clair">paroles</span> : <?php the_field('parolier'); ?></p>
             <p><span class="highlight-vert-clair">compositeur</span> : <?php the_field('compositeur'); ?></p>

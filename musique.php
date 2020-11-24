@@ -19,7 +19,7 @@ Template Name Posts: Musique
                 recherche par <span class="highlight">#hashtag<span>
             </h4>
             <?php
-                // Récupérer la taxonomie dans une variable
+                // Récupérer la taxonomie dans une variable Artiste
                 $taxonomyArtist = 'song_artist';
                 // Variable avec le get_terms
                 $tax_termsArtist = get_terms($taxonomyArtist, array('hide_empty' => false));
@@ -30,7 +30,7 @@ Template Name Posts: Musique
                 echo '<span class="repo-music-taxo"><a href="' . esc_attr(get_term_link($tax_termArtist, $taxonomyArtist)) . '" title="' . sprintf( __( "Voir tous les … in %s" ), $tax_termArtist->name ) . '" ' . '>' . $tax_termArtist->name.'</a></span>';
                 }
 
-                // Récupérer la taxonomie dans une variable
+                // Récupérer la taxonomie dans une variable Label
                 $taxonomyLabel = 'song_label';
                 // Variable avec le get_terms
                 $tax_termsLabel = get_terms($taxonomyLabel, array('hide_empty' => false));

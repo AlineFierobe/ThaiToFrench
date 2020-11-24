@@ -667,3 +667,20 @@ footer .linkFooter ul li a {
   width: 560px;
   height: 315px;
 }
+
+#lesTags a {
+  color: var(--dark);
+  text-transform: uppercase;
+}
+
+#lesTags a::before {
+  content: '#';
+}
+
+#lesTags a:nth-child(4n + 1) {
+  background: linear-gradient(transparent 60%, var(--rose-transparent) 40%);
+}
+
+#lesTags a:nth-child(4n + 3) {
+  background: linear-gradient(transparent 60%, var(--vert-transparent) 40%);
+}
